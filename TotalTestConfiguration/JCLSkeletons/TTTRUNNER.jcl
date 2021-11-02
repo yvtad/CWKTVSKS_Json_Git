@@ -44,6 +44,7 @@ DEBUG(${runtime.usedebug})
 //BININP DD DSN=${runtime.bininp},DISP=OLD
 //BINREF DD DSN=${runtime.binref},DISP=OLD
 //BINRES DD DSN=${runtime.binres},DISP=OLD
+//SLSF001 DD DSN=SALESSUP.YXN1.QA1.LISTING,DISP=SHR
 //*
 //*      Optionally add your custom DD statements
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR
