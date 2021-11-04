@@ -27,7 +27,6 @@
         <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_01.stub#Tests/Stubs/CWXTCOB_CWXTDATE_01.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_01.stub#Tests/Stubs/CWXTCOB_EMPFILE_FILE_01.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_RPTFILE_FILE_01.stub#Tests/Stubs/CWXTCOB_RPTFILE_FILE_01.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWXTCOB_DATETIME_01.stub#Tests/Stubs/CWXTCOB_DATETIME_01.stub</testcase:stub>
       </testcase:stubs>
       <testcase:returncode listructure="../Structures/CWXTCOB_RETURN-CODE.listructure#Tests/Structures/CWXTCOB_RETURN-CODE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
