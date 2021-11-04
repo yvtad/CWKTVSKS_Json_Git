@@ -1,49 +1,40 @@
-17:21:28.856 INFO      TOPAZ            ***************************************
-17:21:28.857 INFO      TOPAZ            ** Execution from Topaz with options **
-17:21:28.857 INFO      TOPAZ            ***************************************
-17:21:28.857 INFO      TOPAZ            Using repository: true
-17:21:28.857 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
-17:21:28.857 INFO      TOPAZ            ***************************************
-17:21:28.858 INFO      Engine           Test Scenario execution started
-17:21:28.859 INFO      Engine           Using context settings:
+13:31:04.155 INFO      TOPAZ            ***************************************
+13:31:04.155 INFO      TOPAZ            ** Execution from Topaz with options **
+13:31:04.155 INFO      TOPAZ            ***************************************
+13:31:04.156 INFO      TOPAZ            Using repository: true
+13:31:04.156 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+13:31:04.156 INFO      TOPAZ            ***************************************
+13:31:04.156 INFO      Engine           Test Scenario execution started
+13:31:04.156 INFO      Engine           Using context settings:
   Engine Version                : 20.8.2.v20211026-0506_133
-  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.nasa.cpwr.corp
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
   Socket read timeout           : 30
   Encoding                      : ISO8859-1
-  Codepage                      : 
+  Codepage                      : IBM-1047
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-17:21:28.859 INFO      Engine           Setting variables from context and context data extensions
-17:21:28.859 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-17:21:28.859 INFO      Engine             id: environmentType    value: BATCH
-17:21:28.859 INFO      Engine             id: userId             value: HBOYXN0
-17:21:28.859 INFO      Engine             id: accountingInfo     value: 
-17:21:28.859 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-17:21:28.862 DEBUG     Unittest         Getting TTTRUNNR loadlib version
-17:21:28.866 DEBUG     Unittest         Custom JCL skeleton used from directory selected in execution context: ../../../TotalTestConfiguration/JCLSkeletons2
-17:21:28.867 INFO      Unittest         Using JCL skeleton to submit JCL
-17:21:28.867 DEBUG     Unittest         Building binary files for test scenario: CWXTCOB_Scenario.testscenario in project Tests
-17:21:32.557 DEBUG     Unittest         Custom JCL skeleton used from directory selected in execution context: ../../../TotalTestConfiguration/JCLSkeletons2
-17:21:32.562 INFO      CWCC - Demo System Sending Job execution request to Host 
-17:21:32.566 DEBUG     CWCC - Demo System Executing Job through HCI
-17:21:32.685 DEBUG     CWCC - Demo System Job submitted with jobId: J0203459 jobName:HBOYXN0A
-17:21:37.792 INFO      CWCC - Demo System Job execution completed with status:
+13:31:04.156 INFO      Engine           Setting variables from context and context data extensions
+13:31:04.156 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+13:31:04.156 INFO      Engine             id: environmentType    value: BATCH
+13:31:04.156 INFO      Engine             id: userId             value: HBOYXN0
+13:31:04.156 INFO      Engine             id: accountingInfo     value: 
+13:31:04.156 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+13:31:04.162 INFO      Unittest         Using JCL skeleton to submit JCL
+13:31:07.683 INFO      CWCC Batch       Sending Job execution request to Host 
+13:31:12.896 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0A(J0203459) ended with return code: 0000
+  Job status msg : Job HBOYXN0A(J0203919) ended with return code: 0000
   Job name       : HBOYXN0A
-  Job id         : J0203459
+  Job id         : J0203919
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-17:21:37.792 DEBUG     CWCC - Demo System Setting execution variable 'jobid' to J0203459
-17:21:37.793 DEBUG     CWCC - Demo System Setting execution variable 'jobname' to HBOYXN0A
-17:21:37.793 DEBUG     CWCC - Demo System Setting execution variable 'returncode' to 0000
-17:21:38.730 INFO      Unittest         Execution completed
-17:21:38.731 INFO      Engine           Test Scenario execution ended
+13:31:14.353 INFO      Unittest         Execution completed
+13:31:14.353 INFO      Engine           Test Scenario execution ended
