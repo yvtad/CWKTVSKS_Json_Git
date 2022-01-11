@@ -1,12 +1,12 @@
-14:46:30.773 INFO      TOPAZ            ***************************************
-14:46:30.774 INFO      TOPAZ            ** Execution from Topaz with options **
-14:46:30.774 INFO      TOPAZ            ***************************************
-14:46:30.774 INFO      TOPAZ            Using repository: false
-14:46:30.774 INFO      TOPAZ            ***************************************
-14:46:30.774 INFO      Engine           Test Scenario execution started
-14:46:30.774 INFO      Engine           Using context settings:
-  Engine Version                : 20.8.2.v20211026-0506_133
-  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+10:52:20.379 INFO      TOPAZ            ***************************************
+10:52:20.381 INFO      TOPAZ            ** Execution from Topaz with options **
+10:52:20.381 INFO      TOPAZ            ***************************************
+10:52:20.381 INFO      TOPAZ            Using repository: false
+10:52:20.381 INFO      TOPAZ            ***************************************
+10:52:20.382 INFO      Engine           Test Scenario execution started
+10:52:20.382 INFO      Engine           Using context settings:
+  Engine Version                : 20.9.1.v20211213-1238_91
+  Environment id                : 192.168.96.130:16196
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
@@ -19,21 +19,21 @@
   Codepage                      : 
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-14:46:30.774 INFO      Engine           Setting variables from context and context data extensions
-14:46:30.774 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-14:46:30.774 INFO      Engine             id: environmentType    value: BATCH
-14:46:30.774 INFO      Engine             id: userId             value: HBOYXN0
-14:46:30.774 INFO      Engine             id: accountingInfo     value: 
-14:46:30.774 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-14:46:30.784 INFO      Unittest         Using JCL skeleton to submit JCL
-14:46:34.081 INFO      CWCC - Demo System Sending Job execution request to Host 
-14:46:39.297 INFO      CWCC - Demo System Job execution completed with status:
+10:52:20.382 INFO      Engine           Setting variables from context and context data extensions
+10:52:20.382 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+10:52:20.382 INFO      Engine             id: environmentType    value: BATCH
+10:52:20.383 INFO      Engine             id: userId             value: HBOYXN0
+10:52:20.383 INFO      Engine             id: accountingInfo     value: 
+10:52:20.383 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+10:52:20.389 INFO      Unittest         Using JCL skeleton to submit JCL
+10:52:24.086 INFO      CWCC             Sending Job execution request to Host 
+10:52:29.335 INFO      CWCC             Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0A(J0206416) ended with return code: 0000
+  Job status msg : Job HBOYXN0A(J0222770) ended with return code: 0004
   Job name       : HBOYXN0A
-  Job id         : J0206416
-  Return code    : 0000
+  Job id         : J0222770
+  Return code    : 0004
   Abend code     : 
   Abend reason   : 
-14:46:40.804 INFO      Unittest         Execution completed
-14:46:40.804 INFO      Engine           Test Scenario execution ended
+10:52:30.921 INFO      Unittest         Execution completed
+10:52:30.922 INFO      Engine           Test Scenario execution ended
