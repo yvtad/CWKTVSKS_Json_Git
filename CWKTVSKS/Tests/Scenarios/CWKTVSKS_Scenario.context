@@ -5,7 +5,7 @@
       <Value>SALESSUP.YXN1.QA1.LOAD</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.testscenario">
     <Test>
       <Unittest testscenariopath="CWKTVSKS_Scenario.testscenario" moduleName="CWKTVSKS" />
     </Test>

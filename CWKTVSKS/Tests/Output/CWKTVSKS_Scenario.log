@@ -1,39 +1,42 @@
-09:46:36.611 INFO      TOPAZ            ***************************************
-09:46:36.612 INFO      TOPAZ            ** Execution from Topaz with options **
-09:46:36.612 INFO      TOPAZ            ***************************************
-09:46:36.612 INFO      TOPAZ            Using repository: false
-09:46:36.612 INFO      TOPAZ            ***************************************
-09:46:36.612 INFO      Engine           Test Scenario execution started
-09:46:36.613 INFO      Engine           Using context settings:
-  Engine Version                : 20.9.1.v20211213-1238_91
-  Environment id                : 192.168.96.130:16196
+16:30:39.658 INFO      TOPAZ            ***************************************
+16:30:39.658 INFO      TOPAZ            ** Execution from Topaz with options **
+16:30:39.659 INFO      TOPAZ            ***************************************
+16:30:39.659 INFO      TOPAZ            Using repository: false
+16:30:39.659 INFO      TOPAZ            ***************************************
+16:30:39.659 INFO      Engine           Test Scenario execution started
+16:30:39.659 INFO      Engine           Using context settings:
+  Engine Version                : 20.13.1.v20221223-1346_92
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : 198.147.191.81
   Server port                   : 16196
   Job execution timeout seconds : 600
   Job info interval seconds     : 3
   Socket read timeout           : 30
   Encoding                      : ISO8859-1
-  Codepage                      : 
+  Codepage                      : 1047
   Host user Id                  : HBOYXN0
   Use Repository Server         : false
-09:46:36.613 INFO      Engine           Setting variables from context and context data extensions
-09:46:36.613 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-09:46:36.613 INFO      Engine             id: environmentType    value: BATCH
-09:46:36.613 INFO      Engine             id: userId             value: HBOYXN0
-09:46:36.613 INFO      Engine             id: accountingInfo     value: 
-09:46:36.613 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
-09:46:36.622 INFO      Unittest         Using JCL skeleton to submit JCL
-09:46:40.061 INFO      CWCC             Sending Job execution request to Host 
-09:46:45.282 INFO      CWCC             Job execution completed with status:
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+16:30:39.659 INFO      Engine           Setting variables from context and context data extensions
+16:30:39.660 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+16:30:39.660 INFO      Engine             id: environmentType    value: BATCH
+16:30:39.660 INFO      Engine             id: userId             value: HBOYXN0
+16:30:39.660 INFO      Engine             id: accountingInfo     value: 
+16:30:39.660 INFO      Engine             id: datasetHQL         value: 
+16:30:39.660 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+16:30:39.663 INFO      Unittest         Using JCL skeleton to submit JCL
+16:30:41.846 INFO      CWCC - Demo System Sending Job execution request to Host 
+16:30:46.960 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HBOYXN0A(J0222709) ended with return code: 0000
+  Job status msg : Job HBOYXN0A(J0351720) ended with return code: 0000
   Job name       : HBOYXN0A
-  Job id         : J0222709
+  Job id         : J0351720
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-09:46:46.635 INFO      Unittest         Execution completed
-09:46:46.636 INFO      Engine           Test Scenario execution ended
+16:30:47.760 INFO      Unittest         Execution completed
+16:30:47.760 INFO      Engine           Test Scenario execution ended
