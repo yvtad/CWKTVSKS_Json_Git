@@ -6,7 +6,7 @@
 10:52:20.382 INFO      Engine           Test Scenario execution started
 10:52:20.382 INFO      Engine           Using context settings:
   Engine Version                : 20.9.1.v20211213-1238_91
-  Environment id                : 192.168.96.130:16196
+  Environment id               : 192.168.96.130:16196
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
